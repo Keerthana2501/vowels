@@ -4,7 +4,7 @@ int main()
 {
     char ch[20];
  int i;
-    printf("Please Enter an alphabet: \n");
+    printf("Please Enter the string: \n");
     scanf(" %s", &ch);
     for(i=0;i<strlen(ch);i++){
     if(ch[i] == 'a' ||ch[i] == 'e' ||ch[i] == 'i' || ch[i] == 'o' ||ch[i]== 'u' ||
